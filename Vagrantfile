@@ -1,11 +1,11 @@
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
 $script = <<SCRIPT
-JMETER_VER=2.12
+JMETER_VER=3.2
 
 echo "installing java..."
 sudo apt-get update
-sudo apt-get -y install openjdk-7-jdk
+sudo apt-get -y install openjdk-8-jdk
 
 echo "install curl..."
 sudo apt-get -y install curl
